@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REGISTRY = "localhost:5001"
+        REGISTRY = "localhost:5000"
         IMAGE_NAME = "anil-demo-app"
     }
 
